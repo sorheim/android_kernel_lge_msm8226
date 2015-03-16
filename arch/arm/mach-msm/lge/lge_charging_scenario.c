@@ -17,7 +17,7 @@
 
 #include <mach/lge_charging_scenario.h>
 #include <linux/string.h>
-/* For LGE charging scenario debug */
+/*                                 */
 #ifdef DEBUG_LCS
 /* For fake battery temp' debug */
 #ifdef DEBUG_LCS_DUMMY_TEMP
@@ -281,5 +281,4 @@ void lge_monitor_batt_temp(struct charging_info req, struct charging_rsp *res)
 		res->btm_state, req.is_charger);
 #endif
 }
-
 
